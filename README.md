@@ -160,23 +160,10 @@ def load(self):
 
 ## 3. Results and Summary
 
-### Results
-
-- The game runs correctly in the terminal for both Human vs Human and Human vs AI modes
-- All 4 OOP pillars are implemented and clearly visible in the code
-- The Singleton pattern is used for `ResultSaver` to safely manage file access
-- Game results are saved to `results.csv` and displayed at the end of the session
-- 17 unit tests written with `unittest` — all pass
-
 ### Conclusions
 
 This project produced a working Tic Tac Toe game built with object-oriented programming. Each class has one clear job: `Board` manages the grid, `Player` subclasses handle input, `ResultSaver` handles the file, and `Game` connects everything together.
 
-The program correctly saves and loads game history using a CSV file. Future improvements could include:
-
-- A smarter AI using the Minimax algorithm so the computer never loses
-- A graphical interface using `tkinter`
-- Tracking win/loss/draw counts per player name across sessions
 
 ---
 

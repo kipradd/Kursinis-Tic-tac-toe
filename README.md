@@ -14,14 +14,6 @@ The game has two modes:
 
 Every result is saved to a `results.csv` file automatically.
 
-### How to run the program
-
-You need **Python 3** installed. Open a terminal in the project folder and run:
-
-```bash
-python main.py
-```
-
 ### How to use the program
 
 1. Choose mode `1` or `2`
